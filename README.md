@@ -1,4 +1,4 @@
 # Bhanu-Portfolio
 
-![image](https://user-images.githubusercontent.com/81702392/172996899-c82003d3-148e-4f2f-be01-573d6bec10fb.png)
+![image](https://user-images.githubusercontent.com/81702392/172997016-399a3be0-a6f5-4824-a4b1-7a0519d646a5.png)
 
