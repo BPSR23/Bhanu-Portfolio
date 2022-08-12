@@ -227,37 +227,37 @@
 			$.ajax({      	
 
 		      type: "POST",
-		      url: "inc/sendEmail.php",
+		      url: "https://getform.io/f/e140189a-4b28-482c-888e-a02c0c8d1a02",
 		      data: $(form).serialize(),
 		      beforeSend: function() { 
 
 		      	sLoader.fadeIn(); 
 
 		      },
-		      success: function(msg) {
+		    //   success: function(msg) {
 
-	            // Message was sent
-	            if (msg == 'OK') {
-	            	sLoader.fadeOut(); 
-	               $('#message-warning').hide();
-	               $('#contactForm').fadeOut();
-	               $('#message-success').fadeIn();   
-	            }
-	            // There was an error
-	            else {
-	            	sLoader.fadeOut(); 
-	               $('#message-warning').html(msg);
-		            $('#message-warning').fadeIn();
-	            }
+	        //     // Message was sent
+	        //     if (msg == 'OK') {
+	        //     	sLoader.fadeOut(); 
+	        //        $('#message-warning').hide();
+	        //        $('#contactForm').fadeOut();
+	        //        $('#message-success').fadeIn();   
+	        //     }
+	        //     // There was an error
+	        //     else {
+	        //     	sLoader.fadeOut(); 
+	        //        $('#message-warning').html(msg);
+		    //         $('#message-warning').fadeIn();
+	        //     }
 
-		      },
-		      error: function() {
+		    //   },
+		    //   error: function() {
 
-		      	sLoader.fadeOut(); 
-		      	$('#message-warning').html("Something went wrong. Please try again.");
-		         $('#message-warning').fadeIn();
+		    //   	sLoader.fadeOut(); 
+		    //   	$('#message-warning').html("Something went wrong. Please try again.");
+		    //      $('#message-warning').fadeIn();
 
-		      }
+		    //   }
 
 	      });     		
   		}
